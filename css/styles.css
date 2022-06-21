@@ -1,0 +1,269 @@
+html {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Dosis', sans-serif;
+    overflow-x: hidden;
+
+}
+hr {
+    border-style: dotted none none;
+    border-color: black;
+    border-width: 7px;
+    width: 3.5rem;
+    margin: 30px auto;
+}
+a{
+    text-decoration: none;
+}
+#background {
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Dosis', serif;
+}
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 20px;
+}
+.navbar-light .navbar-toggler {
+    border-color:transparent;
+}
+#navigation{
+    padding: 1% 5%;
+}
+
+.home-container {
+    font-family: 'Dosis', sans-serif;
+}
+
+.home-container h1{
+    font-family: 'Dosis', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.home-contact{
+    color: black;
+    border-bottom: 3px transparent solid;
+    text-decoration: none;
+    transition: border-color 0.5s;
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+}
+.home-contact:hover{
+    color: white;
+}
+
+/* ABOUT */
+
+.about-head h2,.tech{
+    font-weight: 600;
+}
+
+.section1 {
+    text-align: left;
+    font-family: 'Merriweather',cursive;
+    margin:100px 100px 30px;
+    /* display: flex;
+    flex-direction: row; */
+    
+}
+.section1 h1{
+    width: 550px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fas{
+    font-size: 1.5rem;
+    padding: 20px;
+    color: rgb(58, 150, 199);
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+}
+
+.section2,.section3,.section4{
+    width: 430px;
+    border-radius: 6%;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.2);
+    margin: 20px 50px;
+    text-align: left;
+    padding: 20px;
+}
+
+.section2,.section3,.section4 h3{
+    text-align: center;
+}
+
+.row{
+    padding: 5% 10%;
+}
+
+.space{
+    height: 4rem;
+    width: 100%;
+}
+.minispace{
+    width:30%;
+    height: 2rem;
+}
+
+/* Work page */
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+#turtle-image{
+    height: 250px;
+}
+
+/* Contact page */
+form{
+    margin:2rem 5rem;
+}
+.text-field{
+    display: grid;
+    grid-template-areas:
+        'name email'
+        'subject phone'
+        'message message';
+    grid-gap: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+input{
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    font-family: 'Montserrat',sans-serif;
+    height: 35px;
+}
+textarea{
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    font-family: 'Montserrat',sans-serif; 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 4rem;;
+}
+.submit{
+    width: 8rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border:none;
+    padding: 0;
+    border-radius: 5px;
+}
+.submit:hover{
+    transform: scale(1.05);
+}
+.col:hover{
+    transform: scale(1.02);
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.social-media{
+    padding: 1.5rem 1rem;
+}
+.social-media a{
+    color: black;
+    padding: 10px;
+}
+.social-media i{
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.social-media a:hover{   
+    color: rgb(211, 102, 211);
+}
+.copyright{
+    padding: 0 20px 20px;
+}
+
+
+
+@media (max-width:1200px){
+    .home-container h1{
+        font-size: 30px;
+    }
+    a.home-contact {
+        font-size: 20px;
+    }
+    h4{
+        font-size:  1rem;
+    }
+    
+    .section1{
+        margin: 25px;
+    }
+    .section1 h1 {
+        width: auto;
+        font-size: 30px;
+        text-align: center;
+    }
+    .part1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2,.section3,.section4{
+        width: 300px;
+    }
+    #python-section{
+        justify-content: center;
+    }
+    #turtle-image{
+        height: auto;
+    }
+    .social-media{
+        padding: 0rem 1rem;
+    }
+    .social-media a{
+        padding: 7px;
+    }
+    #container-fluid{
+        display: none;
+    }
+    .row-cols-md-3>* {
+        width: auto;
+    }
+    .text-field {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-footer{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}
