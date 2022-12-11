@@ -142,3 +142,45 @@ dd{
     color: rgba(195, 192, 100, 1);
 
 }
+.skills-diagram .skill-13{
+    width: 7em;
+    height: 7em;
+    line-height: 7em;
+    background-color: rgba(212, 73, 34, 0.3);
+    border-color: rgb(203, 63, 24);
+    color: rgb(209, 71, 32);
+
+}
+.skills-diagram .skill-14{
+    width: 7em;
+    height: 7em;
+    line-height: 7em;
+    background-color: rgba(46, 138, 75, .3);
+    border-color: rgba(46, 138, 75, 1);
+    color: rgba(46, 138, 75, 1);
+}
+.skills-diagram .skill-15{
+    width: 7em;
+    height: 7em;
+    line-height: 7em;
+    background-color: rgba(212, 73, 34, 0.3);
+    border-color: rgb(203, 63, 24);
+    color: rgb(209, 71, 32);
+
+}
+.skills-diagram .skill-16{
+    width: 6em;
+    height: 6em;
+    line-height: 6em;
+    background-color: rgba(195, 100, 149, 0.3);
+    border-color: rgb(187, 78, 154);
+    color: rgb(208, 77, 204);
+}
+.skills-diagram .skill-17{
+    width: 6em;
+    height: 6em;
+    line-height: 6em;
+    background-color: rgba(111, 196, 50, 0.3);
+    border-color: rgb(49, 171, 33);
+    color: rgb(29, 145, 11);
+}

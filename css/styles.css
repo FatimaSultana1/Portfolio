@@ -84,9 +84,13 @@ a{
     text-align: left;
     font-family: 'Merriweather',cursive;
     margin:100px 100px 30px;
-    /* display: flex;
-    flex-direction: row; */
-    
+    display: flex;
+    flex-direction: row; 
+}
+.section1 img {
+    width: 300px;
+    height: 400px;
+    margin-left: 10%;
 }
 .section1 h1{
     width: 550px;
@@ -144,6 +148,7 @@ a{
 #turtle-image{
     height: 250px;
 }
+
 
 /* Contact page */
 form{
@@ -226,6 +231,7 @@ textarea{
     
     .section1{
         margin: 25px;
+        display: block;
     }
     .section1 h1 {
         width: auto;
